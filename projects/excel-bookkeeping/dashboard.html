@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard | Excel Bookkeeping Project</title>
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
+<body>
+<header class="topbar"><div class="container nav"><a class="logo" href="../../index.html">Liliane Konissi<span>Bookkeeping Portfolio</span></a><nav class="nav-links"><a href="../../index.html">Home</a><a href="../../pages/about.html">About</a><a href="../../pages/services.html">Services</a><a href="../../pages/projects.html">Projects</a><a href="../../pages/reports.html">Reports</a><a href="../../pages/contact.html">Resume</a><a href="../../pages/certificates.html">Certificates</a></nav></div></header>
+<section class="page-header"><div class="container"><div class="breadcrumb"><a href="../../index.html">Home</a> / <a href="../../pages/projects.html">Projects</a> / <a href="index.html">Excel Bookkeeping Project</a> / Dashboard</div><span class="badge">Excel Task 10 of 12</span><h1>Dashboard</h1><p class="lead">Create a simple dashboard that summarizes the delivery driver bookkeeping activity.</p></div></section>
+
+<main class="section">
+  <div class="container project-layout">
+    <div class="info-grid">
+      <section class="card info-block">
+        <h2>Purpose</h2>
+        <p>Show the most important bookkeeping metrics in one place: total income, total expenses, net earnings, business miles, and best income platform.</p>
+        <h3>Simple Example</h3>
+        <p>A business owner can quickly see that the 3-month project produced $13,006.80 total income, $2,863.77 total expenses, $10,143.03 net earnings, and 7,245 business miles.</p>
+      </section>
+      <section class="card info-block decision-rule-card">
+        <h2>Simple Bookkeeping Decision Rule</h2>
+        <p>Dashboard metrics should pull from summary sheets using formulas. This avoids manual mistakes and keeps the dashboard updated when source data changes.</p>
+      </section>
+    </div>
+
+    <section class="screenshot-section screenshot-clean" aria-label="Screenshot area">
+      <div class="screenshot-box screenshot-box-large screenshot-empty">
+        <div class="screenshot-title">Screenshot: Dashboard</div>
+        <img class="screenshot-img" src="../../assets/screenshots/excel/dashboard.png" alt="Dashboard screenshot" />
+      </div>
+    </section>
+
+    <section class="card analysis-card">
+      <h2>Analysis</h2>
+      <p>The dashboard summarizes the full 3-month project. The key numbers are <strong>$13,006.80 total income</strong>, <strong>$2,863.77 total expenses</strong>, <strong>$10,143.03 net earnings</strong>, and <strong>7,245 total business miles</strong>. The best income platform is <strong>Walmart Spark</strong> with <strong>$4,291.05</strong> in platform income.</p><p>The workbook dashboard uses formula-driven values from the Monthly Summary, Mileage Log, and Platform Summary sheets.</p><div class="note"><strong>Dashboard formulas used:</strong><br>Total Income = Monthly Summary total income<br>Total Expenses = Monthly Summary total expenses<br>Net Earnings = Monthly Summary net earnings<br>Total Business Miles = SUM of Mileage Log business miles<br>Best Income Platform = Walmart Spark, based on the highest income in the Platform Summary.</div>
+    </section>
+
+    <section class="card result-card">
+      <h2>Result</h2>
+      <p>The dashboard gives a fast, professional view of income, expenses, mileage, and platform performance for bookkeeping review.</p>
+    </section>
+  </div>
+</main>
+<footer class="footer"><div class="container">© 2026 Liliane Konissi Bookkeeping Portfolio · Sample data only</div></footer>
+<script src="../../assets/js/main.js"></script>
+</body>
+</html>
